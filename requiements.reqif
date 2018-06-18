@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:ns2="http://www.w3.org/1999/xhtml" xml:lang="UTF-8">
+    <THE-HEADER>
+        <REQ-IF-HEADER IDENTIFIER="MDReqIF_1529091466585_671985_0">
+            <CREATION-TIME>2018-06-15T15:37:46</CREATION-TIME>
+            <REPOSITORY-ID>PROJECT-5999e4c7-6856-466f-9d24-7719745374e3</REPOSITORY-ID>
+            <REQ-IF-TOOL-ID>MagicDraw</REQ-IF-TOOL-ID>
+            <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+            <SOURCE-TOOL-ID>MagicDraw</SOURCE-TOOL-ID>
+        </REQ-IF-HEADER>
+    </THE-HEADER>
+    <CORE-CONTENT>
+        <REQ-IF-CONTENT>
+            <DATATYPES>
+                <DATATYPE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091466693_160685_3" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="String"/>
+                <DATATYPE-DEFINITION-STRING MAX-LENGTH="2147483647" IDENTIFIER="MDReqIF_1529091468501_685882_5" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="String"/>
+            </DATATYPES>
+            <SPEC-TYPES>
+                <SPEC-OBJECT-TYPE IDENTIFIER="MDReqIF_1529091466630_789640_1" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Interface Requirement">
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091466693_955055_2" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Name" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                        <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="MDReqIF_1529091468501_235364_4" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.ForeignID" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-STRING-REF>MDReqIF_1529091468501_685882_5</DATATYPE-DEFINITION-STRING-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-STRING>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468504_759769_6" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Text" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                    </SPEC-ATTRIBUTES>
+                </SPEC-OBJECT-TYPE>
+                <SPEC-OBJECT-TYPE IDENTIFIER="MDReqIF_1529091468760_509558_7" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Functional Requirement">
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468760_66363_8" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Name" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468761_254563_9" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Text" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                    </SPEC-ATTRIBUTES>
+                </SPEC-OBJECT-TYPE>
+                <SPEC-OBJECT-TYPE IDENTIFIER="MDReqIF_1529091468788_993662_10" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Requirement">
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468788_427858_11" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Name" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                        <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="MDReqIF_1529091468788_980729_12" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.ForeignID" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-STRING-REF>MDReqIF_1529091468501_685882_5</DATATYPE-DEFINITION-STRING-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-STRING>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468789_521622_13" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Text" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                    </SPEC-ATTRIBUTES>
+                </SPEC-OBJECT-TYPE>
+                <SPEC-OBJECT-TYPE IDENTIFIER="MDReqIF_1529091468797_17873_14" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Business Requirement">
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468797_741266_15" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Name" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                        <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="MDReqIF_1529091468797_910023_16" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.ForeignID" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-STRING-REF>MDReqIF_1529091468501_685882_5</DATATYPE-DEFINITION-STRING-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-STRING>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468798_357066_17" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Text" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                    </SPEC-ATTRIBUTES>
+                </SPEC-OBJECT-TYPE>
+                <SPEC-OBJECT-TYPE IDENTIFIER="MDReqIF_1529091468947_569841_18" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Class">
+                    <SPEC-ATTRIBUTES>
+                        <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="MDReqIF_1529091468947_160432_19" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="ReqIF.Name" IS-EDITABLE="true">
+                            <TYPE>
+<DATATYPE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_160685_3</DATATYPE-DEFINITION-XHTML-REF>
+                            </TYPE>
+                        </ATTRIBUTE-DEFINITION-XHTML>
+                    </SPEC-ATTRIBUTES>
+                </SPEC-OBJECT-TYPE>
+                <SPEC-RELATION-TYPE IDENTIFIER="MDReqIF_1529091468991_764535_20" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="DeriveReqt">
+                    <SPEC-ATTRIBUTES/>
+                </SPEC-RELATION-TYPE>
+                <SPEC-RELATION-TYPE IDENTIFIER="MDReqIF_1529091468992_347643_21" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Refine">
+                    <SPEC-ATTRIBUTES/>
+                </SPEC-RELATION-TYPE>
+                <SPEC-RELATION-TYPE IDENTIFIER="MDReqIF_1529091468995_139132_22" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Trace">
+                    <SPEC-ATTRIBUTES/>
+                </SPEC-RELATION-TYPE>
+            </SPEC-TYPES>
+            <SPEC-OBJECTS>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525645524629_492757_15636" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Common format across manufacturers">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Common format across manufacturers</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-H">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system manufacturer must support the NIST SP 1500 CDF specifications for export and interchange of data and reports across its major device categories.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525644393086_87534_13003" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Data export and exchange format">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Data export and exchange format</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-A">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Voting devices must provide support for the non-restrictive, publicly-available NIST SP Common Data Format (CDF) specifications for data inputs and output:
+•	Election programming data, NIST SP 1500-100
+•	Election results data, NIST SP 1500-100 
+•	Election event logging data, NIST SP 1500-101
+•	Voter registration-related data, NIST SP 1500-102
+•	Cast vote records, NIST SP 1500-103
+•	Ballot definition data, NIST SP 1500-104 
+</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525644509683_163761_13009" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election programming data input and output">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election programming data input and output</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-B">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>•	input or output of election programming data;
+•	input or output of ballot programming data; and
+•	pre-election reports.
+</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525645295325_870029_15608" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Exchange of cast vote records">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Exchange of cast vote records</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-D">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Devices that export or import CVRs must support the NIST CDF specifications that apply to export and import of CVRs.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525645323818_266352_15615" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Exchange of voting device election logs">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Exchange of voting device election logs</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-E">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Voting devices must support the export or import of election log data using the NIST SP 1500-101 specification.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525645375620_140639_15629" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Public specification of manufacturer native formats">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Public specification of manufacturer native formats</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-G">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Where a NIST SP 1500 CDF specification or other interoperable interchange specification does not exist for a particular area of data interchange,  the voting device manufacturer must provide a specification for its native format, describing how the manufacturer has implemented the native format that applies  to the manufacturer’s specific voting devices and data. This includes such items as descriptions of elements, attributes, constraints, extensions, syntax and semantics of the format, and definitions for data fields and schemas. </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525645343539_931969_15622" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Specification of common format usage">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Specification of common format usage</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-F">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting device or election system manufacturer must provide a specification describing how the manufacturer has implemented a NIST SP 1500 CDF specification that applies to the manufacturer’s specific voting devices and data. This includes  such items as descriptions of elements, attributes, constraints, extensions, syntax and semantics of the format, and definitions for data fields and schemas.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525645223077_988217_15601" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Tabulator report data">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Tabulator report data</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1-C">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Tabulators must include support for the NIST CDF specifications for election results reporting data.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565876944_868860_10364" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="User-centered design process">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>User-centered design process</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468760_66363_8</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The manufacturer must submit a report providing documentation that the system was developed following best practices for a user-centered design process. 
+The report must include, at a minimum:
+
+•A listing of user-centered design methods used
+•The types of voters and election workers included in those methods
+•How those methods were integrated into the overall implementation process
+•How the results of those methods contributed to developing the final features and design of the voting system			
+</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468761_254563_9</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468760_509558_7</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565139857_259285_8317" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="High Quality Design">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>High Quality Design</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="1">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system is designed to accurately, completely, and robustly carry out election processes.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565324255_169706_8457" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Identify correct implementations">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Identify correct implementations</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468797_741266_15</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="1.3">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468797_910023_16</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Voting system design supports evaluation methods enabling testers to clearly distinguish systems that correctly implement specified properties from those that do
+not.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468798_357066_17</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468797_17873_14</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525564959768_985960_8208" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Process Specifications">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Process Specifications</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468797_741266_15</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="1.1">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468797_910023_16</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system is designed using commonly-accepted election process specifications.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468798_357066_17</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468797_17873_14</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565078994_53898_8216" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Real World">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Real World</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468797_741266_15</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="1.2">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468797_910023_16</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system is designed to function correctly under real-world operating conditions.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468798_357066_17</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468797_17873_14</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565712216_947223_10341" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="High Quality Implementation">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>High Quality Implementation</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="2">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system is implemented using high quality best practices.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565765894_162745_10348" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Best Practices">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Best Practices</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="2.1">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system and its software are implemented using trustworthy materials and best practices in software development. </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525565790374_415540_10357" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="User Centered">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>User Centered</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="2.2">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system is implemented using best practice user-centered design methods, for a wide range of representative voters, including those with and without disabilities, and election workers.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525644062886_348125_12974" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Interoperable">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Interoperable</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The voting system is designed to support interoperability in its interfaces to external systems, its interfaces to internal components, its data, and its peripherals.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525644117735_948734_12981" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Interoperable Formats">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Interoperable Formats</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.1">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Voting system data that is imported, exported, or otherwise reported, is in an interoperable format. </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525644163244_69914_12988" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Standard Formats">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Standard Formats</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.2">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Standard, publicly-available formats for other types of data are used, where available. </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1525644190271_190779_12995" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Widely-used protocols">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Widely-used protocols</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="4.3">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Widely-used hardware interfaces and communications protocols are used. </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_18_5_3_43701b0_1520019182414_823285_11345" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election definition devices, ballot definition">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election definition devices, ballot definition</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="17">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468788_980729_12</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The election definition device MUST provide for the logical definition of the ballot, including the definition of the number of allowable votes for each contest.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_18_5_3_43701b0_1520019852799_227590_11794" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election definition devices, administrative subdivisions">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election definition devices, administrative subdivisions </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468760_66363_8</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The election definition device MUST provide for the logical definition of administrative subdivisions, where the list contests varies between subdivisions.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468761_254563_9</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468760_509558_7</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_18_5_3_43701b0_1520019776098_403926_11736" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election definition devices, ballot definition details">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election definition devices, ballot definition details</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468788_427858_11</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The election definition device MUST be capable of collecting and maintaining
+Contests and their associated labels and instructions;
+Candidate names and their associated labels; and
+Ballot questions and their associated text.
+</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468789_521622_13</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468788_993662_10</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_18_5_3_43701b0_1520020941274_82223_13171" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election definition devices, election districts">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election definition devices, election districts</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468760_66363_8</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The election definition device MUST enable EOs to define multiple election districts.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468761_254563_9</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468760_509558_7</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_18_5_3_43701b0_1520020979904_518970_13180" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election definition devices, identifiers">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election definition devices, identifiers</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468760_66363_8</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>The election definition device MUST enable EOs to associate a minimum of 3 identifiers each for administration subdivisions, election districts, contests, and candidates.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468761_254563_9</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468760_509558_7</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_18_5_3_43701b0_1520020803111_660528_12980" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Election definition devices">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Election definition devices</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468947_160432_19</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468947_569841_18</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1520122927970_5431_8403" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Voting System">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Voting System</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468947_160432_19</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091468947_569841_18</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1520122492709_558132_8189" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Integratability of systems and devices">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Integratability of systems and devices</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="20">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Systems MUST maximize integratability with other systems and/or devices of other systems.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1520122735485_987424_8235" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Standard device interfaces">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Standard device interfaces</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="21">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Standard, common hardware interfaces and protocols MUST be used to connect devices. </ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+                <SPEC-OBJECT IDENTIFIER="_19_0beta_43701b0_1520122842398_188408_8304" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="Standard protocols and algorithms">
+                    <VALUES>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Standard protocols and algorithms</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091466693_955055_2</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                        <ATTRIBUTE-VALUE-STRING THE-VALUE="22">
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-STRING-REF>MDReqIF_1529091468501_235364_4</ATTRIBUTE-DEFINITION-STRING-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-STRING>
+                        <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="false">
+                            <THE-VALUE>
+<ns2:div>Standard, publicly-available and publicly-documented protocols MUST be used, where possible, for exchanging data or encoding data.</ns2:div>
+                            </THE-VALUE>
+                            <DEFINITION>
+<ATTRIBUTE-DEFINITION-XHTML-REF>MDReqIF_1529091468504_759769_6</ATTRIBUTE-DEFINITION-XHTML-REF>
+                            </DEFINITION>
+                        </ATTRIBUTE-VALUE-XHTML>
+                    </VALUES>
+                    <TYPE>
+                        <SPEC-OBJECT-TYPE-REF>MDReqIF_1529091466630_789640_1</SPEC-OBJECT-TYPE-REF>
+                    </TYPE>
+                </SPEC-OBJECT>
+            </SPEC-OBJECTS>
+            <SPEC-RELATION-GROUPS/>
+            <SPEC-RELATIONS>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645721925_682515_15842" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645295325_870029_15608</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1520122831777_700106_8282" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468992_347643_21</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1520122492709_558132_8189</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1520122735485_987424_8235</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645726487_127564_15874" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645343539_931969_15622</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525644751163_613962_13266" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644509683_163761_13009</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645712070_399275_15826" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645223077_988217_15601</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645728198_950082_15890" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645375620_140639_15629</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_18_5_3_43701b0_1520020858064_198054_13077" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468995_139132_22</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_18_5_3_43701b0_1520020803111_660528_12980</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_18_5_3_43701b0_1520019182414_823285_11345</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525644755424_126245_13284" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644393086_87534_13003</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645724349_688550_15858" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645323818_266352_15615</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525565942267_577540_10483" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525565790374_415540_10357</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525565876944_868860_10364</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_18_5_3_43701b0_1520020864889_532012_13092" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468995_139132_22</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_18_5_3_43701b0_1520020803111_660528_12980</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_18_5_3_43701b0_1520019776098_403926_11736</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645729882_909373_15906" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468991_764535_20</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525644117735_948734_12981</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645524629_492757_15636</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1520122903487_377190_8365" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468992_347643_21</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1520122492709_558132_8189</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1520122842398_188408_8304</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645779419_624920_15930" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468995_139132_22</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645295325_870029_15608</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645223077_988217_15601</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+                <SPEC-RELATION IDENTIFIER="_19_0beta_43701b0_1525645863990_651305_15940" LAST-CHANGE="2018-06-15T15:37:46" LONG-NAME="">
+                    <VALUES/>
+                    <TYPE>
+                        <SPEC-RELATION-TYPE-REF>MDReqIF_1529091468995_139132_22</SPEC-RELATION-TYPE-REF>
+                    </TYPE>
+                    <TARGET>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645343539_931969_15622</SPEC-OBJECT-REF>
+                    </TARGET>
+                    <SOURCE>
+                        <SPEC-OBJECT-REF>_19_0beta_43701b0_1525645375620_140639_15629</SPEC-OBJECT-REF>
+                    </SOURCE>
+                </SPEC-RELATION>
+            </SPEC-RELATIONS>
+        </REQ-IF-CONTENT>
+    </CORE-CONTENT>
+</REQ-IF>
