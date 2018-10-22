@@ -8,4 +8,4 @@ Features:
 - Linking of CDFs to interoperability Requirements
 - Linking of system requirements to test cases
 
-[https://hiltonroscoe.github.io/vvsg](POC Portal)
+[VVSG POC Portal](https://hiltonroscoe.github.io/vvsg)
